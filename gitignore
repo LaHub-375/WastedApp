@@ -1,0 +1,50 @@
+# ---- Secrets / env ----
+.env
+.env.local
+.env.*.local
+*.pem
+*.key
+
+# ---- Node / general JS-TS ----
+node_modules/
+dist/
+build/
+.turbo/
+*.tsbuildinfo
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# ---- React Native ----
+.expo/
+.expo-shared/
+ios/Pods/
+ios/build/
+android/app/build/
+android/.gradle/
+android/local.properties
+*.jsbundle
+*.hbc
+
+# ---- Next.js (admin dashboard) ----
+.next/
+out/
+next-env.d.ts
+
+# ---- Supabase ----
+supabase/.branches/
+supabase/.temp/
+
+# ---- Testing / coverage ----
+coverage/
+
+# ---- OS / editor clutter ----
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+
+# ---- Logs ----
+*.log
